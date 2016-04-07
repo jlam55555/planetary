@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  border-bottom: white dotted 1px;
+}
+html {
+	font-family: Helvetica, sans-serif;
+  font-size: 20px;
+	color: #ffffff;
+	background-color:#0e1d3b;
+  height: 100%;
+	background: url(img/background.png) no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  overflow: hidden;
+  font-weight: bold;
+}
+body {
+	margin: auto;
+	height: 100%;
+	width: 100%;
+}
+.citation {
+  width: 300px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 30px;
+  text-align: right;
+}
+.planet, .sun, .star {
+  position: absolute;
+}
